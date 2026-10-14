@@ -51,7 +51,7 @@ const homeSections = document.querySelectorAll('.home-section');
 if (homeSections.length) {
   const updates = document.createElement('section');
   updates.className = 'home-section updates-section';
-  updates.innerHTML = '<p class="section-label">LATEST UPDATES</p><h2>Schedule and announcements</h2><ol class="update-list"><li><time>15 October 2026</time><span>Validation data release</span></li><li><time>20 October 2026</time><span>Public leaderboards open</span></li><li><time>To be announced</time><span>Submission rules and registration details</span></li></ol><a class="text-link" href="dates.html">View all important dates →</a>';
+  updates.innerHTML = '<p class="section-label">LATEST UPDATES</p><h2>Schedule and announcements</h2><ol class="update-list"><li><time>22 October 2026</time><span>Validation data release</span></li><li><time>27 October 2026</time><span>Public leaderboards open</span></li><li><time>To be announced</time><span>Submission rules and registration details</span></li></ol><a class="text-link" href="dates.html">View all important dates →</a>';
   homeSections[homeSections.length - 1].after(updates);
 }
 
